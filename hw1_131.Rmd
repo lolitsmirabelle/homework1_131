@@ -129,7 +129,7 @@ ggplot(mpg, aes(x=factor(manufacturer), fill = cyl)) +
     geom_boxplot()
 ```
 
-The pattern I see is that 
+The pattern I see is that as there are more cars produced, the cyl gets increasingly bigger as well.
 
 ## Exercise 5:
 Use the corrplot package to make a lower triangle correlation matrix of the mpg dataset. (Hint: You can find information on the package here.)
